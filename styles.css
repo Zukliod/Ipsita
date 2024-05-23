@@ -2,11 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
 }
 
 nav {
-    background-color: #4CAF50;
+    background-color: #2196F3;
     color: white;
     padding: 1em;
     text-align: center;
@@ -45,7 +45,7 @@ nav ul li a:hover {
 .page {
     display: none;
     padding: 2em;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 2em;
@@ -72,11 +72,11 @@ img {
 }
 
 a {
-    color: #4CAF50;
+    color: #2196F3;
 }
 
 a:hover {
-    color: #388E3C;
+    color: #1976D2;
 }
 
 section {
@@ -84,9 +84,9 @@ section {
 }
 
 section:nth-child(odd) {
-    background-color: #fafafa;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 section:nth-child(even) {
-    background-color: #f4f4f4;
+    background-color: rgba(255, 255, 255, 0.9);
 }
